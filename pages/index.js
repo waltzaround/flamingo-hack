@@ -1,15 +1,8 @@
 import styled from 'styled-components'
+import Header from '../components/Header'
+import Page from '../components/Page'
 
 
-const Page = styled.div`
-
-`
-
-const Header = styled.div`
-background-color: #2c384c;
-height: 6rem;
-width: 100vw;
-` // end header
 
 const MapContainer = styled.div`
 
@@ -19,13 +12,11 @@ const Footer = styled.div`
 
 ` //end footer
 
+
+
+
 const Index = () => (
-    <div>
-        <style jsx global>{`
-        body { 
-        margin: 0;
-      }
-            `}</style>
+    <Page>
       <Header>
         
       </Header>
@@ -35,7 +26,7 @@ const Index = () => (
       <Footer>
 
       </Footer>
-    </div>
+    </Page>
   );
   
   export default Index;
