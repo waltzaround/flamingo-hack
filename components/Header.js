@@ -9,13 +9,30 @@ margin-top: 0;
 
 ` // end header
 
-const HeaderIconLeft = styled.div`
+const HeaderTopContainer = styled.div`
+padding: 0.5rem;
+display: flex;
+`
+
+const HeaderIconLeft = styled.img`
+background-color: purple;
+height: 2rem;
+width: 2rem;
 `
 
 const HeaderMidText = styled.div`
+height: 2rem;
+margin: 0 auto;
+margin-top: 0.4rem;
+
+text-align: center;
+color: white;
 `
 
 const HeaderIconRight = styled.div`
+background-color: purple;
+height: 2rem;
+width: 2rem;
 `
 
 const HeaderSearch = styled.div`
@@ -23,7 +40,12 @@ const HeaderSearch = styled.div`
 
 const Header = () => (
    <HeaderContainer>
-<p> FIND A TRIP</p>
+       <HeaderTopContainer>
+           <HeaderIconLeft/>
+           <HeaderMidText>aaaaa</HeaderMidText>
+           <HeaderIconRight/>
+       </HeaderTopContainer>
+
    </HeaderContainer>
 ) 
 

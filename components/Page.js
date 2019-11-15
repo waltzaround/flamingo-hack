@@ -10,8 +10,9 @@ const Page = ({ children }) => (
         padding: 0;
         border: 0;
       }
-      p {
+      p,h1,h2,h3,h4,h5 {
         margin: 0;
+        font-family: 'open sans'
       }
     `}</style>
     {children}
