@@ -1,4 +1,4 @@
-[
+export default [
   {
     "longitude": 174.791698,
     "latitude": -36.848124
