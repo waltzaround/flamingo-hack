@@ -29,6 +29,7 @@
     "next-images": "^1.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-geolocated": "^3.0.1",
     "styled-components": "^4.4.1"
   }
 }
