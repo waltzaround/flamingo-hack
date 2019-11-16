@@ -1,20 +1,31 @@
+import styled from 'styled-components'
+import Page from '../components/Page'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
-const Header = styled.div`
 
-` // end header
 
 const MapContainer = styled.div`
+height: calc(100vh - 13.5rem);
+background-color: purple;
 
 ` // end MapContainer
 
-const Footer = styled.Footer`
 
-` //end footer
+
 
 const Index = () => (
-    <div>
-      <p>Hello fren</p>
-    </div>
+    <Page>
+      <Header>
+        
+      </Header>
+      <MapContainer>
+aaa
+      </MapContainer>
+      <Footer>
+
+      </Footer>
+    </Page>
   );
   
   export default Index;
