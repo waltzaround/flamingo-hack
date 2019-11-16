@@ -96,15 +96,15 @@ export class MapContainer extends React.Component {
   }
 
   componentDidMount() {
-    this.loadData()
-    // navigator.geolocation.getCurrentPosition(function(location) {
-      // alert(location.coords.latitude)
-    //   this.setState({...this.state, me: {
-    //     lat: location.coords.latitude,
-    //     lng: location.coords.longitude 
-    //   }})
-    //   this.loadData()
-    // }.bind(this))
+    // this.loadData()
+    navigator.geolocation.getCurrentPosition(function(location) {
+      alert(location.coords.latitude)
+      this.setState({...this.state, me: {
+        lat: location.coords.latitude,
+        lng: location.coords.longitude 
+      }})
+      this.loadData()
+    }.bind(this))
       
     
   }
