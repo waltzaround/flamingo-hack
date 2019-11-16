@@ -42,7 +42,7 @@ const FeedbackInput = () => (
       <CommentInput placeholder="Enter comments" />
     </div>
     <ButtonContainer>
-      <DoneButton>Done</DoneButton>
+      <a href="/"><DoneButton>Done</DoneButton></a>
     </ButtonContainer>
   </FeedbackInputContainer>
 )
