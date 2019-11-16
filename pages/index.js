@@ -17,16 +17,10 @@ z-index: 12;
 
 const Index = () => (
     <Page>
-      <Header>
-        
-      </Header>
-     
-   
-
+      <Header/>
       <MapContainer/>
       <a href="scanner.html">
-      <Footer/>
-
+        <Footer/>
       </a>
     </Page>
   );
