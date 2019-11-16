@@ -98,7 +98,6 @@ export class MapContainer extends React.Component {
   componentDidMount() {
     // this.loadData()
     navigator.geolocation.getCurrentPosition(function(location) {
-      alert(location.coords.latitude)
       this.setState({...this.state, me: {
         lat: location.coords.latitude,
         lng: location.coords.longitude 
@@ -117,6 +116,9 @@ export class MapContainer extends React.Component {
           zoom={16}
           initialCenter={this.state.me}
         >
+          <Marker name='Your location'
+              position= {this.state.me}
+          />
           {this.state.waves}
           {this.state.onzos}
           {this.state.limes}
