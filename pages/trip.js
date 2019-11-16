@@ -20,7 +20,7 @@ const TripSummaryContainer = styled.div`
   grid-template-columns: 1fr 2px 1fr;
   text-align: center;
 
-  
+
 `
 const TripStat = styled.h1`
 font-size: 1.5rem;
@@ -51,7 +51,7 @@ const CancelButton = styled.div`
   padding: 0.4rem;
 
 
-  
+
 `
 
 const CancelText = styled.div`
@@ -70,18 +70,18 @@ const Trip = () => (
     <TripHeader />
     <TripSummaryContainer>
       <div>
-Distance:<br/>
-<TripStat>2KM</TripStat>
+        Distance:<br />
+        <TripStat>2KM</TripStat>
       </div>
-      <Divider/>
+      <Divider />
       <div>
-Cost:<br/>
-<TripStat>$1.23</TripStat>
+        Cost:<br />
+        <TripStat>$1.23</TripStat>
       </div>
 
     </TripSummaryContainer>
     <CancelButton>
-      <CancelText>End Ride</CancelText>
+      <a href="./feedback"><CancelText>End Ride</CancelText></a>
     </CancelButton>
     <MapContainer />
   </Page>
