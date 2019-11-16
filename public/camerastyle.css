@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+body {
+    margin     : 0;
+    padding    : 0;
+    border     : 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin     : 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.PrimaryContainer {
+    overflow: hidden;
+    height  : 100vh;
+    width   : 100vw;
+    position: relative;
+
+}
+
+video {
+    height  : 100vh;
+    margin  : 0 auto;
+    z-index : 1;
+    position: absolute;
+
+}
+
+
+.MainContainer {
+    position: absolute;
+    z-index : 2;
+    margin  : 0 auto;
+    width   : calc(100vw - 4rem);
+    height  : calc(100vh - 4rem);
+
+
+
+}
+
+.Text0 {
+    position  : relative;
+    margin-top: 4rem;
+    width     : 100vw;
+
+
+    font-size  : 6rem;
+    font-weight: 700;
+    text-align : center;
+    color      : white;
+
+
+
+}
+
+.Text1 {
+    position  : relative;
+    margin-top: 2rem;
+    width     : 100vw;
+
+
+    font-size  : 3rem;
+    font-weight: 700;
+    text-align : center;
+    color      : white;
+
+
+}
+
+
+
+.Target {
+    left         : 2rem;
+    position     : relative;
+    margin       : 8rem auto 4rem auto;
+    width        : 640px;
+    height       : 640px;
+    border       : 24px solid white;
+    border-radius: 16px;
+}
