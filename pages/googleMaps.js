@@ -110,22 +110,20 @@ export class MapContainer extends React.Component {
 
   render() {
     return (
-      <div>
-        <Map 
-          google={this.props.google} 
-          zoom={16}
-          initialCenter={this.state.me}
-        >
-          <Marker name='Your location'
-              position= {this.state.me}
-          />
-          {this.state.waves}
-          {this.state.onzos}
-          {this.state.limes}
-          
-        </Map>
-      </div>
-
+          <Map 
+            google={this.props.google} 
+            zoom={16}
+            initialCenter={this.state.me}
+            style={{height:'calc(100% - 11rem)', top: '6.5rem', position: 'absolute'}}
+          >
+            <Marker name='Your location'
+                position= {this.state.me}
+            />
+            {this.state.waves}
+            {this.state.onzos}
+            {this.state.limes}
+            
+          </Map>
     )
   }
 }

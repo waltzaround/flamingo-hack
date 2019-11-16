@@ -6,7 +6,8 @@ background-color: #2c384c;
 height: 6.5rem;
 width: 100vw;
 margin-top: 0;
-
+position: absolute;
+top:0;
 ` // end header
 
 const HeaderTopContainer = styled.div`
