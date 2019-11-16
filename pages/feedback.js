@@ -10,7 +10,7 @@ const Feedback = () => (
     <FeedbackInput>
 
     </FeedbackInput>
-    <button>Done</button>
+
   </Page>
 )
 
