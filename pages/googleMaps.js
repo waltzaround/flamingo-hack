@@ -1,10 +1,7 @@
 import {Map, Marker, GoogleApiWrapper} from 'google-maps-react'
 import React from 'react'
-import Waves from '../data/wave'
-import Limes from '../data/lime'
-import Onzos from '../data/onzo'
-import Axios from 'axios'
-import onzo from '../data/onzo'
+
+
 export class MapContainer extends React.Component {
 
   constructor(props) {
@@ -105,6 +102,7 @@ export class MapContainer extends React.Component {
 
 
     return (
+
       <Map 
         google={this.props.google} 
         zoom={14}
@@ -118,11 +116,12 @@ export class MapContainer extends React.Component {
         {this.state.limes}
         
       </Map>
+
     )
     }
   }
 
 export default GoogleApiWrapper({
-  apiKey: ''
+  apiKey: 'AIzaSyBm3QHEb18fKpLayA0m0pp32AuNmpsvH5Y'
 })(MapContainer)
 

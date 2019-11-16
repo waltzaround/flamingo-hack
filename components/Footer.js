@@ -34,8 +34,14 @@ const FooterText = styled.p`
 text-align: center;
 font-size: 0.6rem;
 font-weight: bold;
+color: #2c384c;
+
+:link {
+    color: #2c384c;
+}
 
 `
+
 
 const FooterIcon = styled.img`
 height:32px;
